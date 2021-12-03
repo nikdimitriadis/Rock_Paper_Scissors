@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bgDiv">
+      <div class="resultContent"></div>
+    </div>
+    <main>
+      <form>
+        <section id="clickRound"></section>
+        <div class="divForScore"></div>
+        <div class="divForSelect"></div>
+        <section id="images">
+          <div class="inImgDiv">
+            <input
+              class="inImg"
+              type="image"
+              id="rock"
+              src="https://www.dea.gov/sites/default/files/styles/slide/public/2018-06/cocaine_hcl3.jpg?h=2fea0d08&itok=rrd9oniO"
+              alt="rock"
+            />
+          </div>
+          <div class="inImgDiv">
+            <input
+              class="inImg"
+              type="image"
+              id="scissors"
+              src="https://www.queer.de/img/lesben-am-see-social.jpg"
+              alt="scissors"
+            />
+          </div>
+          <div class="inImgDiv">
+            <input
+              class="inImg"
+              type="image"
+              id="paper"
+              src="https://image.freepik.com/free-vector/hand-woman-pull-up-with-tissue-roll-white-paper_383392-116.jpg"
+              alt="paper"
+            />
+          </div>
+        </section>
+
+        <button type="button" class="restart" onclick="rldPage()">
+          Restart
+        </button>
+      </form>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
